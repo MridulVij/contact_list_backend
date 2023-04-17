@@ -1,5 +1,4 @@
 import { body, validationResult } from "express-validator";
-import bcrypt from "bcrypt";
 import User from "../../models/User.js";
 
 //              MIDDLE FOR VALIDATION

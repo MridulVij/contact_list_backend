@@ -1,6 +1,5 @@
 import { body, validationResult } from 'express-validator';
-import bcrypt from "bcrypt";
-import User from "../../models/User.js"
+
 
 
 //              MIDDLE FOR VALIDATION
@@ -12,7 +11,7 @@ export const loginValidation = [
 export const Login = async (req, res) => {
     const { email, password } = req.body;
 
-    //          CHECK HERE IS , IT CRENDTIOL IS PROPER VALIDATE OR NOT ?
+    
     const errors = validationResult(req);
     if (!errors.isEmpty())
         return res.status(400).json({ errors: errors.array() });

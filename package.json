@@ -9,7 +9,7 @@
     "start": "node server.mjs",
     "dev":"nodemon server.mjs"
   },
-  "author": "Mayank",
+  "author": "Mridul",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",

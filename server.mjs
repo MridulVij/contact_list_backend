@@ -6,8 +6,9 @@ import cors from "cors";
 import connect from './config/db.js'
 
 
+
 const app = express()
-const port = 8000
+
 
 dotenv.config()
 app.use(cors())
